@@ -21,7 +21,7 @@ $ git push heroku master
 This application uses [buildpack-multi][] to cascade [buildpack-casperjs][] and [buildpack-nodejs][].
 
 ```bash
-cat .buildpacks 
+$ cat .buildpacks 
 https://github.com/leesei/heroku-buildpack-casperjs.git
 https://github.com/heroku/heroku-buildpack-nodejs#diet
 ```
