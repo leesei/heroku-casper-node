@@ -23,7 +23,7 @@ This application uses [buildpack-multi][] to cascade [buildpack-casperjs][] and 
 ```bash
 $ cat .buildpacks 
 https://github.com/leesei/heroku-buildpack-casperjs.git
-https://github.com/heroku/heroku-buildpack-nodejs#diet
+https://github.com/heroku/heroku-buildpack-nodejs
 ```
 
 [Spooky][] is used for Casper-Node binding, you can replace it with other module of your choice.
