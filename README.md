@@ -2,6 +2,8 @@
 
 A sample Heroku application that cascades [NodeJS][] on [CasperJS][], suitable for web scraping and automation.
 
+> Now that [phantomjs](https://www.npmjs.com/package/phantomjs) and [casperjs](https://www.npmjs.com/package/casperjs) are both available on npm, it is easier to use [Node.JS buildpack](https://devcenter.heroku.com/articles/nodejs-support) to install them.
+
 ## Usage
 
 Example usage:
